@@ -1,0 +1,110 @@
+<head>
+<title>Bio-Medical Project Present</title>
+<link rel="stylesheet" href="images/Darkezroll.css" type="text/css" />
+</head>
+
+<body>
+<div id="wrap">
+  <div id="header">
+    <h1 id="logo-text">BIO-MEDICAL PROJECT</h1>
+    <h2 id="slogan">Suranaree University of Technology</h2>
+  </div>
+  
+  <div  id="menu">
+  </div>
+  
+  <div id="content-wrap">
+    <div id="sidebar">
+      <h1>Fasta Search</h1>
+      
+      <form action="http://rosalind.info/search/" class="searchform">
+        <p>
+          <input name="q" class="textbox" type="text" />
+          <input name="search" class="button" value="Search" type="submit" />
+        </p>
+      </form>
+      
+       <h1>Web Project Menu</h1>
+      <ul class="sidemenu">
+        <li><a href="http://rosalind.info/problems/list-view/">Rosalind</a></li>
+        <li><a href="http://www.biotechnologyonline.gov.au/popups/int_translation.html">Biotechnologyonline</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Translation_(biology)">Wikipedia</a></li>
+      </ul>
+
+    </div>
+    
+    <div id="main"> <a name="TemplateInfo"></a>
+    
+      <h1>Transitions and Transversions</h1>  
+
+      <blockquote>
+        <p>PROBLEM
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat....</p>
+      </blockquote>
+
+      
+      <h1>Python Programing</h1>
+      
+    <form action='cgi/cgi_echo.py'>
+      <form enctype="multipart/form-data" action="save_file.py" method="post">
+        <h3>Input File</h3>
+        <ul>
+        <li>Example File : dna_fasta</li>
+        <?php
+        $file=fopen("input.txt","r");
+        ?>
+        </ul>
+        <p>File: <input type="file" name="upload" /><input class="button" type="submit" /></p>
+      </form>
+    </form>
+
+
+      <h1>Code Project</h1>
+      
+      <h3>Code</h3>
+      <ul>
+        <li>Not CGI Code / Code Process Only.</li>
+        <li><a href="https://nxxixa.bn1303.livefilestore.com/y2mzhOCy3kW6NaApLs_b3Xb3LrlAgKMvmhIv-FT-q3_0UIINB-_er0bWBnOh9tlrdkAKDtGr5AuLrXr0Y4mXR5Ceo4OTTBDlZnCx4hoRnb6aVA/cgi_echo.py?download&psid=1" target="_blank">Download CGI Code.</a></li>
+      </ul>
+
+
+      
+      <p><code>f = open("input.txt", "r")<br />
+      
+        dna = f.readlines()<br /><br />
+        a = dna[0]<br />
+        b = dna[1]<br />
+        
+        mutation = 0<br /><br />
+        
+        transitions = set([('A', 'G'), ('G', 'A'), ('C', 'T'), ('T', 'C')])<br />
+        ratio = {True: 0.0, False: 0.0}<br /><br />
+        
+        for i in zip(a,b):<br /><br />
+        if i[0] != i[1] :<br /><br />
+        mutation = mutation + 1<br />
+        ratio[i in transitions] += 1<br /><br />
+        print ("Counting Point Mutations : " ,mutation)<br />
+        print ("Transition : " ,ratio[True])<br />
+        print ("Transversion : " ,ratio[False])<br />
+        print ("Transition/Transversion Ratio : " ,ratio[True] / ratio[False])<br /><br />
+        
+        </code></p>
+      
+      <h1>Transitions-transversions Concept</h1>
+    
+      <p><a href="http://upload.wikimedia.org/wikipedia/commons/3/35/Transitions-transversions-v3.png"><img src="images/tt.png" width="500" height="500" alt="tt" class="float-left" /></a></p>
+      
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      
+    </div>
+  </div>
+  
+  
+  <div id="footer">
+    <p> &copy; 2014 <strong>Chettawat Phosri</strong> | Bio-Medical Project</p>
+  </div>
+  
+</div>
+</body>
+</html>
